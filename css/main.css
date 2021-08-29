@@ -1,0 +1,590 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&display=swap");
+:root {
+  --primary-color: #FFD650;
+  --secondary-color: #99472D;
+}
+
+body {
+  background: var(--primary-color);
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;  
+}
+
+.s0 {
+  background-image: url("img/image.jpg");
+  background-size: cover;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.s0 h1 {
+  font-family: 'Montserrat bold';
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;  
+  font-size: 5em;
+}
+
+#campus {
+  background-image: url("img/campus.jpg");
+  background-size: cover;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#campush1 {
+  text-align: center;
+  padding-top: 10em;
+  font-size: 6em;
+}
+
+.s1 {
+  background-color: var(--primary-color);
+  display: flex;
+  font-size: 0.5em;
+}
+
+.s1 h1 {
+  text-align: center;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  /* font-size: 8em; */
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 6em;
+}
+
+.s1 p {
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  width: 90%;
+  display: flex;
+  font-size: 3em;
+  text-align: center;
+  max-width: -webkit-calc(30em - (1.3em*2));
+  max-width:calc(30em - (1.3em*2));
+  margin-right:auto;
+  margin-left:auto;
+  padding-right:1.3em;
+  padding-left:1.3em;
+  font-size: 3em;
+}
+
+.s1 a {
+  text-align: center;
+  font-size: 0.7em;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-decoration: none;
+}
+
+.s1 a:hover {
+  color: var(--secondary-color);
+}
+
+.s1 h2 {
+  text-align: center;
+  padding-top: .1em;
+}
+
+.s2 {
+  background-color: var(--primary-color);
+  display: flex;
+}
+
+.majors {
+  font-size: 3em;
+}
+
+#major {
+  background-image: url("img/major.jpg");
+  background-size: cover;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#major1 {
+  background-image: url("img/major1.jpg");
+  background-size: cover;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#major2 {
+  background-image: url("img/major2.jpg");
+  background-size: cover;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#major3 {
+  background-image: url("img/major3.jpg");
+  background-size: cover;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#major4 {
+  background-image: url("img/major4.jpg");
+  background-size: cover;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#scholarships {
+  background-image: url("img/scholarships.jpg");
+  background-size: cover;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.s2 h1 {
+  text-align: center;
+  font-size: 3.2em;
+  color: white;
+  padding-top: 4em;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.s2 h2 {
+  text-align: center;
+  font-size: 1em;
+  color: white;
+  padding-bottom: 0.2em;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.s2 p {
+  color: white;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  width: 90%;
+  display: flex;
+  font-size: 3em;
+  text-align: center;
+  max-width: -webkit-calc(30em - (1.3em*2));
+  max-width: calc(30em - (1.3em*2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1.3em;
+  padding-left: 1.3em;
+  font-size: 1.5em;
+}
+
+.s3 {
+  background-color: var(--primary-color);
+  display: flex;
+  font-size: 0.5em;
+}
+
+.s3Home {
+  background-image: url("img/about2.jpg");
+  background-size: cover;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.s3 h1 {
+  text-align: center;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  /* font-size: 8em; */
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-bottom: 1.4em;
+}
+
+.s3 p {
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  width: 90%;
+  display: flex;
+  font-size: 3em;
+  text-align: center;
+  max-width: -webkit-calc(30em - (1.3em*2));
+  max-width:calc(30em - (1.3em*2));
+  margin-right:auto;
+  margin-left:auto;
+  padding-right:1.3em;
+  padding-left:1.3em;
+  font-size:2.4em;
+}
+
+#scholarships p {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-bottom: 0em;
+  font-size: 1.2em;
+}
+
+#scholarships h1 {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-top: 3em;
+}
+
+#scholarships h2 {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-bottom: 0.2em;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  background: white;
+}
+
+.navbar {
+  background-color: var(--primary-color);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: var(--secondary-color);
+  font-size: 1.3em;
+  font-family: 'Open Sans Bold', sans-serif;
+  padding: 10px;
+  margin-left: 12px;
+}
+
+.apply-cta {
+  color: var(--secondary-color);
+  border: 3px solid var(--secondary-color);
+  font-weight: bold;
+  border-radius: 5em;
+  margin-top: -.2em;
+  padding: -50px;
+}
+
+.apply-cta:hover {
+  background: var(--secondary-color);
+  color: white;
+}
+
+a:hover {
+  color: black;
+}
+
+span.sr-only {
+  color: black;
+}
+
+.navbar-toggler {
+  width: 2.8em;
+  height: 2em;
+  background-color: var(--secondary-color);
+}
+
+.navbar-toggler .line {
+  width: 100%;
+  float: left;
+  height: 2px;
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+
+.fp-slidesNav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2em;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--primary-color);
+  /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--secondary-color);
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+}
+img, svg {
+  vertical-align: middle;
+  height: 70px;
+}
+/* ============== Meet our Team ============== */
+.cont_meet{
+  padding-top: 90px;
+  height: 100vh;
+  justify-content: center;
+}
+.shadow_color{
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.cont_meet p{
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  justify-content: center;
+  font-size: 2em;
+}
+.cont_meet img{
+  height: 166px;
+  border-radius: 10px;
+  box-shadow: 5px 7px 5px rgba(50, 50, 50, 0.77);
+}
+.who p{
+  padding: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  justify-content: center;
+  font-size: 12px;
+}
+.who{
+  display: grid;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-around;
+}
+.people{
+  margin: 1rem;
+  height: 29rem;
+  width: 15rem;
+
+  /*
+  border-style: solid;
+  border-color: var(--secondary-color);
+  */
+
+}
+@media screen and (min-width: 870px){
+  .who{
+    display: flex;
+  }
+  .people{
+    margin: 1rem;
+    height: 480px;
+    width: 15rem;
+    
+    /*
+    border-style: solid;
+    border-color: var(--secondary-color);
+    */
+    
+  }
+  .cont_meet img{
+    height: 165px;
+  }
+  .who p{
+    padding: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    justify-content: center;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 1048px) {
+  .people{
+    margin: 18px;
+    height: 550px;
+    width: 300px;
+    
+    /*
+    border-style: solid;
+    border-color: var(--secondary-color);
+    */
+    
+  }
+  .cont_meet img{
+    height: 208px;
+  }
+  .who p{
+    padding: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    justify-content: center;
+    font-size: 14px;
+  }
+
+}
+
+/* ============== ============== ============== */
+
+/* ============== Modal Merchandise ============== */
+
+.modal-header, .modal-body, .modal-footer{
+  background-color: var(--primary-color);
+}
+.btn_header button, h4{
+  color: var(--secondary-color);
+  border-radius: 0rem;
+  border: 0rem;
+  font-size: 25px;
+  font-weight: bolder;
+  background-color: var(--primary-color);
+}
+.seta{
+  color: #000;
+}
+
+/* ============== ============== ============== */
+
+@media only screen and (max-width: 576px) {
+  .vinicius {
+    padding-top: 3.5em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 180px auto;
+    grid-template-columns: 180px auto;
+  }
+  .navbar nav {
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background: none;
+    position: unset;
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+  .navbar nav ul {
+    display: flex;
+  }
+  .navbar nav a {
+    color: black;
+    font-size: 1em;
+    padding: .1em 1em;
+    padding-top: 1em 1em;
+  }
+  .navbar nav ul.primary-nav {
+    margin: 0;
+  }
+  .navbar nav li.current a {
+    font-weight: bold;
+  }
+  .navbar nav .navbar-dark .navbar-nav .nav-link {
+    color: var(--secondary-color);
+    padding: 0.5em;
+  }
+  .s3 {
+    background-color: var(--primary-color);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .s3 h1 {
+    text-align: center;
+    font-size: 8em;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-bottom: 2.5em;
+  }
+}
+
+@media only screen and (min-width: 994px) {
+  .navbar-dark .navbar-nav .nav-link {
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+
+  .navbar {
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .apply-cta {
+    color: var(--secondary-color);
+    border: 3px solid white;
+  }
+
+  .apply-cta:hover {
+    background: rgba(255, 255, 255, 0.164);
+    color: white;
+  }
+
+  .s3 p {
+    font-size: 3em;
+  }
+
+  .s3 h1 {
+    padding-bottom: 0.4em;
+  }
+
+  .s2 h2 {
+    font-size: 1em;
+    padding-bottom: 4em;
+  }
+
+  #scholarships p {
+    padding-top: 0em;
+    font-size: 1.6em;
+  }
+
+  #scholarships h1 {
+    padding-top: 2em;
+    padding-bottom: 0.1em;
+  }
+  
+  #scholarships h2 {
+    padding-bottom: 0.1em;
+  }
+
+  #campush1 {
+    text-align: center;
+    padding-top: 7em;
+    font-size: 8em;
+  }
+}
+/*# sourceMappingURL=main.css.map */
